@@ -1,5 +1,5 @@
 <?php
-class Fruit {
+class Fruitt {
   // Properties
     public $name;
     public $color;
@@ -16,12 +16,12 @@ class Fruit {
     }
 }
 
-// Create an object named $apple from the Fruit class
-$apple = new Fruit();
+// Create an object named $apple from the Fruitt class
+$apple = new Fruitt();
 $apple->set_details('Apple', 'Red'); // Set property values
 $apple->get_details(); // Get output
 
-// Create an object named $banana from the Fruit class
-$banana = new Fruit();
+// Create an object named $banana from the Fruitt class
+$banana = new Fruitt();
 $banana->set_details('Banana', 'Yellow'); // Set property values
 $banana->get_details(); // Get output
